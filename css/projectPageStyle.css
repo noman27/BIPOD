@@ -1,0 +1,55 @@
+
+body{
+    background-image: url(../images/engineerwallpaper.jpg);
+}
+
+.Midbody{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.Midbody .titles{
+    color: rgb(255, 255, 255);
+}
+
+.Midbody .subjectTitle:hover{
+    text-decoration: underline  #e84393 solid;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.Midbody .container{
+    margin-top: 50px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.Midbody .container .row{
+    padding: 30px;
+}
+
+.itemBox{
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    padding: 50px;
+    background-color: white;
+}
+
+.itemBox:hover{
+    font-weight: 550;
+    transition: all 0.3s ease 0s;
+}
+
+.itemBox img{
+    background: transparent;
+}
+
+.clickHere{
+    border-radius: 0;
+    background-color: #e84393;
+    margin-top: 20px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);   
+}

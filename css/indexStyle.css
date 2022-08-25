@@ -1,0 +1,111 @@
+
+.welcomeTitle{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.motto{
+    position: absolute;
+    text-align: center;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    cursor: pointer;
+    letter-spacing: 5px;
+    transition: all 0.3s ease 0s;
+}
+.MidBannerTitle{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+.NewIdea{
+    background-color: rgb(15, 236, 236);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.lastTitle1{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+.lastTitle2{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+.innerDetails{
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.improveSkill{
+    background-color: rgb(66, 156, 149);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.descript{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 0px;
+}
+.descImage{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.learnMore{
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    font-weight: 650;
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease 0s;
+}
+
+.welcomeTitle:hover{
+    color: #079992;
+}
+
+.motto:hover{
+    color: #9980FA;
+    letter-spacing: 9px;
+}
+
+.learnMore:hover{
+    color: #FFFFFF
+}

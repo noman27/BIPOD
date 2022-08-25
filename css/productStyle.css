@@ -1,0 +1,172 @@
+.container{
+	background-color:#fff;
+}
+
+
+h3{
+	margin-left : 25px;
+	
+}
+
+.user-info{
+	
+	
+	margin-top:25px;
+	margin-left:40%;
+}
+.user-info .User-name{
+
+  font-size: 44px;
+
+}
+
+.container .line{
+	width: 80%;
+	margin-left: 15%;
+	height: 47px;
+	border-bottom: 1px solid crimson;
+	position: relative;
+}
+.product-title{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+	padding:15px;
+  font-size: 54px;
+}
+.product-link{
+  text-align: start;
+	margin-top:25px;
+  font-size: 34px;
+  
+}
+.product-link a{
+  color: #000;
+}
+.container .product-discription{
+	
+	text-align:start;
+	margin-top:25px;
+	font-size:34px;
+}
+.container .product-image{
+	
+margin-top:25px;
+  border-radius: 25px;
+}
+
+.linc{
+  color: #000;
+}
+
+.pre-btn {
+  margin-top: 15px;
+  margin-left: 40px;
+  border-radius: 15px;
+  font-weight: 100;
+  width: 150px;
+  padding: 10px;
+  font-family: revert;
+  color: black;
+  text-transform: uppercase;
+  background: #ffe81c;
+  border: 0;
+  font-size: 14px;
+  -webkit-transition: all 0.5 ease;
+  transition: all 0.5 ease;
+  cursor: pointer;
+}
+.pre-btn:hover{
+  background-color: #ffe600;
+}
+
+
+.user-info .picture{
+  height:150px;
+  width: 150px;
+  text-align: center right;
+  display: block;
+  margin-left: 15%;
+}
+.user-info .picture img{
+  height:150px;
+  width: 150px;
+  text-align: center right;
+  display: block;
+  border-radius: 50%;
+}
+
+
+.publishDate p {
+  font-size: 24px;
+  margin-left: 25px;
+  float: left;
+  text-align: start;
+  margin-left: 25px;
+}
+
+
+
+.wrapper .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #fff;
+}
+
+
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button:hover .icon .gh i{
+  color: #000;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .button:nth-child(2) span{
+  color: #1DA1F2;
+}
+.wrapper .button:nth-child(3) span{
+  color: #000;
+}

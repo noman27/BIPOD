@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{	
+		background: url("../images/datasharing.png")no-repeat center;
+	    background-color: #6aa9d0;  
+		background-position:  70% 70%;
+		
+}
+:root {
+	--primary-c: #2196F3;
+	--secondary-c: #B2D7F5;
+	
+	--white: #FDFBFB;
+	
+	--text: #082943;	
+	--bg: var(--primary-c);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h5{
+  margin-left: 15px;
+  color: #fff;
+}
+
+midbody {
+
+    width: 100%;
+    min-height: 100vh;
+    background: #4F6072;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	
+}
+.instruction{
+	font-size:22px;
+	line-height:82px;
+	letter-spacing:0.92px;
+	margin-top: 15px;
+	text-align:center;
+	font-family:sans-serif;
+	color:#fffdfd;
+	
+	
+}
+h2{
+	color:#082943;
+}
+
+
+ .file__upload{
+	font: 12px/1.5 'PT Sans', serif;
+	margin: 25px;
+	 
+ }
+ textarea{
+	min-height: 150px;
+	min-width:600px;
+	margin-left:15px;
+	font-size:18px;
+	
+}
+input{
+	
+	min-height: 30px;
+	min-width:  300px;
+	font-size:  18px;
+	margin-left:auto;
+}
+
+input .form-check-input{
+  min-height: 30px;
+  min-width: 30px;
+
+}
+
+.details{
+	font-family: "Roboto", sans-serif;
+  border-radius: 20px;
+	font-size: 24px;
+	line-height: 23px;
+	letter-spacing: 0.05em;
+	font-weight: 700;
+	color:#fff;
+    margin-left: 25px;
+	
+}
+ 
+.genre {
+  font: 12px/1.5 'PT Sans', serif;
+  margin: 25px;
+}
+
+
+button {
+  margin-top: 15px;
+  margin-left: 15px;
+  border-radius: 15px;
+  width: 150px;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  background: #5141e7;
+  border: 0;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.5 ease;
+  transition: all 0.5 ease;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #0704b6;
+}
+
+
+
+h4{
+  margin-left: 15px;
+  color: #fff;
+  font-size: 24px;
+}
+li{
+  list-style: none;
+  margin-left: 15px;
+}
+ul {
+	list-style-type: none;
+	padding-left: 50px;
+	margin: 0;
+}
+
+li {
+	display: block;
+	position: relative;
+	padding: 20px 0px;
+}
+
+h2 {
+	margin: 10px 0;
+	font-weight: 900;
+}
+
+
+/* Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– 
+.genre {
+	display: flex;
+	flex-direction: column;	
+	background: var(--white);
+	width: 300px;
+	padding: 20px 25px;
+	border-radius: 20px;
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.13);
+}
+*/
+.genre {
+  width: 350px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+}
+
+.genre .box {
+  padding: 20px 30px;
+  background: #fff;
+  border-radius: 10px;
+}
+.genre .box label {
+  display: flex;
+  height: 53px;
+  width: 100%;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 50px;
+  margin: 10px 0;
+  padding-left: 20px;
+  cursor: default;
+  transition: all 0.3s ease;
+}
+#option-1:checked ~ .option-1,
+#option-2:checked ~ .option-2,
+#option-3:checked ~ .option-3
+{
+  background: #0f4ce4;
+  border-color: #0f4ce4;
+}
+.genre .box label .dot {
+  height: 20px;
+  width: 20px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  position: relative;
+  transition: all 0.3s ease;
+}
+#option-1:checked ~ .option-1 .dot,
+#option-2:checked ~ .option-2 .dot,
+#option-3:checked ~ .option-3 .dot
+ {
+  background: #fff;
+}
+.box label .dot::before{
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)scale(2);
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+#option-1:checked ~ .option-1 .dot::before,
+#option-2:checked ~ .option-2 .dot::before,
+#option-3:checked ~ .option-3 .dot::before
+ {
+  background: #0f4ce4;
+  transform: translate(-50%, -50%) scale(1);
+}
+.genre .box label .text{
+  color: #0f4ce4;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 10px;
+  transition: color 0.3s ease;
+}
+#option-1:checked ~ .option-1 .text,
+#option-2:checked ~ .option-2 .text,
+#option-3:checked ~ .option-3 .text
+{
+  color: #fff;
+}
+.genre .box input[type="radio"]{
+  display: none;
+}
+
+

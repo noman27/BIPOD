@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;;
+}
+body{
+    background-color: #212121;
+}
+.profile-header{
+    background-color:#576574;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    position: relative;
+}
+.profile-pic{
+    float: left;
+}
+
+.profile-pic img{
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    position:absolute;
+}
+
+.profileUsername{
+    margin-top: 20px;
+    margin-left: 100px;
+    color: white;
+    padding-left: 65px;
+    padding-top: 10px;
+}
+
+.profileProfession{
+    margin-left: 100px;
+    color: white;
+    padding-left: 65px;
+    padding-top: 10px;
+}
+
+.body-parent{
+    display: flex;
+    clear: none; 
+}
+
+.profile-options{
+    background-color:#576574 ;
+    border-radius: 20px;
+    margin-top: 20px;
+    /*margin-right: 1050px;*/
+    width: 250px;
+    height: 450px;
+    padding-bottom: 50px;
+    font-weight: 550;
+}
+
+.profile-links{
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+}
+
+.profile-links ul li{
+    list-style-type: circle;
+    padding-right: 5px;
+}
+
+.linker{
+    color: #f9ca24;
+    transition: 0.5s ease;
+}
+
+.linker:hover{
+    color: #c7a62d;
+}
+
+.profile-bio{
+    color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.profile-buttons button{
+    display: block;
+    padding: 5px;
+    margin-bottom: 15px;
+    background-color:rgba(0, 136, 169, 1);;
+    height: 45px;
+    width: 240px;
+    border-radius: 10px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    transition: 0.5s ease;
+    align-items: center;
+}
+
+.profile-buttons button:hover{
+    background-color: rgb(42, 108, 126);;
+}
+
+.recent-projects{
+    background-color:#576574 ;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    width: 1030px;
+    height: 1000px;
+    color: white;
+}
+
+.recent-projects h3{
+    text-align: center;
+}
+
