@@ -261,3 +261,18 @@
   return $resultData;
   mysqli_stmt_close($stmt);
  }
+
+ function reportSubmit($con,$id,$area,$Repo_contact,$address,$type,$Date,$status){
+    $query="INSERT INTO reports(ID, Area, Addres, ReporterNumber, Date, Type, Status) VALUES ('$id','$area','$address','$Repo_contact','$Date','$type','$status')";
+    
+    if(mysqli_query($con,$query)){
+      echo "<script>
+      alert('Reported,Wait for rescuers');
+      window.location.href='index.php';</script>";
+    }else{
+      echo "<script>
+      alert('Cant Report Error occured.');
+      window.location.href='SuicidalReport.php?error';</script>";
+    }
+
+ }

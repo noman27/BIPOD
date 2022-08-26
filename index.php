@@ -136,8 +136,8 @@
       
       <!-- courses section start -->
       <section id="course" class="mt-5 mb-5 sect">
-            <p class="h1 text-center my-5 titles">Discover Our Popular <br> Courses</p>
-            <p class="text-center normal-text">Here are some of the courses you might have interest in</p>
+            <p class="h1 text-center my-5 titles">Our Services</p>
+            <p class="text-center normal-text">The rescue services we provide</p>
             <div class="container">
                 <div class="row">
                   
@@ -149,9 +149,10 @@
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
-                            <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                            <h5 class="card-title">Fire Rescue</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                            <p class="card-text text-info text-bolder">Price : 20$</p>
+                            <a href='FireReport.php'><button class='btn btn-outline-info' type='submit'>Report</button></a>
+
                           </div>
                         </div>
                       </div>
@@ -166,9 +167,9 @@
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
-                            <h5 class="card-title">Javascript Basic to advanced</h5>
+                            <h5 class="card-title">Missing Reports</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                            <p class="card-text text-info text-bolder">Price : 20$</p>
+                            <a href='MissingReport.php'><button class='btn btn-outline-info' type='submit'>Report</button></a>
                           </div>
                         </div>
                       </div>
@@ -183,9 +184,9 @@
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
-                            <h5 class="card-title">Fullstack Web Development</h5>
+                            <h5 class="card-title">Animal Rescue</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                            <p class="card-text text-info text-bolder">Price : 20$</p>
+                            <a href='AnimalReport.php'><button class='btn btn-outline-info' type='submit'>Report</button></a>
                           </div>
                         </div>
                       </div>
@@ -200,47 +201,16 @@
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
-                            <h5 class="card-title">Digital Marketing</h5>
+                            <h5 class="card-title">Suicidal Attempts</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                            <p class="card-text text-info text-bolder">Price : 20$</p>
+                            <a href='SuicidalReport.php'><button class='btn btn-outline-info' type='submit'>Report</button></a>
                           </div>
                         </div>
                       </div>
                     </div>  
                   </div>
                   
-                  <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="card mb-3" style="max-width: 540px;">
-                      <div class="row g-0">
-                        <div class="col-md-4">
-                          <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                          <div class="card-body">
-                            <h5 class="card-title">Photography Basic Rules</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                            <p class="card-text text-info text-bolder">Price : 20$</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="card mb-3" style="max-width: 540px;">
-                      <div class="row g-0">
-                        <div class="col-md-4">
-                          <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                          <div class="card-body">
-                            <h5 class="card-title">Motion Graphics</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                            <p class="card-text text-info text-bolder">Price : 20$</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  
                 </div>
                 <div class="d-flex justify-content-center my-5">
                   <button type="button" class="btn btn-info text-white justify-content-center">See More Courses</button>
