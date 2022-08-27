@@ -51,11 +51,13 @@ include ("function.php");
                 }
             }
             else{
-                echo "Password mismatch";
+                echo "<script>
+                        alert('Cant create user something went wrong')<script>;";
             }
         }
         else{
-            echo "Fill all the fields of the form";
+            echo "<script>
+                        alert('Cant create user something went wrong')<script>;";
         }
     }
 

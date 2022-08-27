@@ -46,7 +46,7 @@
                 <input type="text" class="form-control" id="Reporter-number" name="reporter-cont" placeholder="Contact Number of Reporter">
             </div>
             <div class="form-group mt-5">
-                <label for="Incident-address">Person Description:</label>
+                <label for="Incident-address">Address:</label>
                 <textarea class="form-control" id="Incident-address" name="address" rows="3"></textarea>
             </div>
             <button type="submit" class="btn btn-primary mt-5">Report</button>

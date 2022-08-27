@@ -37,8 +37,8 @@
                   <a class="nav-link active ms-5 me-5" aria-current="page" href="#">Home</a>
                   <a class="nav-link ms-5 me-5" href="#course">Services</a>
                   <a class="nav-link ms-5 me-5" href="#">EMSInfo</a>
-                  <a class="nav-link ms-5 me-5" href="#success">Contact</a>
-                  <a class="nav-link ms-5 me-5" href="#">About</a>
+                  <a class="nav-link ms-5 me-5" href="contactUs.php">Contact</a>
+                  <a class="nav-link ms-5 me-5" href="About.php">About</a>
                   <a class="nav-link ms-5 me-5" href="register.php">Register</a>
                   <?php 
                     if(isset($_SESSION['UserID'])){
@@ -59,11 +59,11 @@
           <div id="carouselExampleControls" class="carousel slide my-5" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/cover/cover-1.png" class="d-block w-100 img-fluid  " alt="...">
+                <img src="images/volunteer.jpg" class="d-block w-100 img-fluid  " alt="...">
                 <div class="carousel-caption d-flex flex-column justify-content-center">
                   
                   <div class="carousel-text">
-                    <p class="py-3 ctextstyle">Get Started Digital Learning</p>
+                    <p class="py-3 ctextstyle">Join as volunteer</p>
                     <p class="py-3 px-5">
                       It is a long established fact that a reader will be
                       distracted by the readable content of a page when looking at
@@ -79,11 +79,11 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/cover/cover-2.jpg" class="d-block w-100 img-fluid " alt="...">
+                <img src="images/rescue.jpg" class="d-block w-100 img-fluid " alt="...">
                 <div class="carousel-caption d-flex flex-column justify-content-center">
                   
                   <div class="carousel-text">
-                    <p class="py-3 ctextstyle">Get Started Digital Learning</p>
+                    <p class="py-3 ctextstyle">Rescue people from Accidents</p>
                     <p class="py-3 px-5">
                       It is a long established fact that a reader will be
                       distracted by the readable content of a page when looking at
@@ -99,11 +99,11 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/cover/cover-3.jpg" class="d-block w-100 img-fluid " alt="...">
+                <img src="images/help.jpeg" class="d-block w-100 img-fluid " alt="...">
                 <div class="carousel-caption d-flex flex-column justify-content-center">
                   
                   <div class="carousel-text">
-                    <p class="py-3 ctextstyle">Get Started Digital Learning</p>
+                    <p class="py-3 ctextstyle">We live for each other</p>
                     <p class="py-3 px-5">
                       It is a long established fact that a reader will be
                       distracted by the readable content of a page when looking at
@@ -145,7 +145,7 @@
                     <div class="card mb-3" style="max-width: 540px;">
                       <div class="row g-0">
                         <div class="col-md-4">
-                          <img src="images/course/course-1.png" class="img-fluid rounded-start " alt="...">
+                          <img src="images/fire.png" class="img-fluid rounded-start " alt="...">
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
@@ -163,7 +163,7 @@
                     <div class="card mb-3" style="max-width: 540px;">
                       <div class="row g-0">
                         <div class="col-md-4">
-                          <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
+                          <img src="images/missing.jpg" class="img-fluid rounded-start" alt="...">
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
@@ -180,7 +180,7 @@
                     <div class="card mb-3" style="max-width: 540px;">
                       <div class="row g-0">
                         <div class="col-md-4">
-                          <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
+                          <img src="images/animal.png" class="img-fluid rounded-start" alt="...">
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
@@ -197,7 +197,7 @@
                     <div class="card mb-3" style="max-width: 540px;">
                       <div class="row g-0">
                         <div class="col-md-4">
-                          <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
+                          <img src="images/suicide.png" class="img-fluid rounded-start" alt="...">
                         </div>
                         <div class="col-md-8">
                           <div class="card-body">
@@ -224,10 +224,10 @@
           <div class="bg-info w-100 d-flex flex-lg-row flex-column rounded align-items-center">
             <div class="text-white p-5">
                 <h1>Ready to Join?</h1>
-                <p class="h3">If you want to join then smash that register button!</p>
+                <p class="h3">Join as a volunteer rescuer.</p>
             </div>
             <div class="regbutton mx-auto align-items-center" style="width: 200px;">
-              <button type="button" class="btn btn-light rounded btn-lg ">Register</button>
+              <a href="register.php"><button type="button" class="btn btn-light rounded btn-lg ">Register</button></a>
             </div>
           </div>
       </section>
@@ -348,15 +348,8 @@
       
       <!-- companies tags start  -->
       <section class="mt-5 p-5">
-        <p class="h1 text-center my-5 d-lg-block d-none titles">Trusted by over 800+ companies</p>
-        <div class="d-lg-flex flex-row d-none">
-            <img src="images/company/company-1.png" alt="" class="img-fluid me-5">
-            <img src="images/company/company-2.png" alt="" class="img-fluid me-5">
-            <img src="images/company/company-3.png" alt="" class="img-fluid me-5">
-            <img src="images/company/company-4.png" alt="" class="img-fluid me-5">
-            <img src="images/company/company-5.png" alt="" class="img-fluid me-5">
-            <img src="images/company/company-6.png" alt="" class="img-fluid me-5">
-        </div>
+        <p class="h1 text-center my-5 d-lg-block d-none titles">Trusted by people</p>
+        
       </section>
       <!-- companies tags end  -->
       
@@ -364,7 +357,7 @@
     
     <footer class="bg-black mt-5">
         <div class="text-white align-items-center text-center p-5 ">
-          <p class="h1">ED-Tech</p>
+          <p class="h1">BIPOD</p>
           <p>Office 41, Zawaya Buildin, Ghala Muscat, 
             Sultanate of Oman</p>
             <p>Privacy Ploicy  |   Terms of use</p>
