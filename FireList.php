@@ -76,11 +76,16 @@
     
     <main>
         <div class="container mb-5 mt-5 d-block">
-            <h5>Update Incident status:</h5>
-            <form method='POST'>
-              <input type="text" placeholder="Incident ID" name="ID" required>
-              <button type='submit' class='btn btn-success' name='stats' value='Resolved'>Resolved</button>
-            </form>
+              <?php
+              if(isset($_SESSION['UserID'])){
+                echo "<h5>Update Incident status:</h5>
+                <form method='POST'>
+                  <input type='text' placeholder='Incident ID' name='ID' required>
+                  <button type='submit' class='btn btn-success' name='stats' value='Resolved'>Resolved</button>
+                </form>";
+              }
+              ?>
+              
         </div>
         <div class="container">
             <div class="mt-5 mb-5">
