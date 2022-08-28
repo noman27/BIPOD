@@ -161,6 +161,7 @@
    if($Check_pwd==$pwd){
       session_start();
       $_SESSION["UserID"]=$userExists["ID"];
+      $_SESSION["Area"] = $userExists["Area"];
       echo "<script>window.location.href='index.php';</script>";
    }
    else{
@@ -169,8 +170,8 @@
 
  }
 
- function allProjectGet($con,$type){
-   $sql="SELECT * FROM project WHERE Type = ?";
+ function allReporttGet($con,$area){
+   $sql="SELECT * FROM reports WHERE Area = ?";
    $stmt=mysqli_stmt_init($con);
    
    if(!mysqli_stmt_prepare($stmt,$sql)){
@@ -178,13 +179,29 @@
       exit();
    }
    
-   mysqli_stmt_bind_param($stmt,"s",$type);
+   mysqli_stmt_bind_param($stmt,"s",$area);
    mysqli_stmt_execute($stmt);
 
    $resultData=mysqli_stmt_get_result($stmt);
    return $resultData;
 
  }
+ function allReportstGet($con,$status){
+  $sql="SELECT * FROM reports WHERE Status = ?";
+  $stmt=mysqli_stmt_init($con);
+  
+  if(!mysqli_stmt_prepare($stmt,$sql)){
+     header("location:../login.php?error=stmtfailed");
+     exit();
+  }
+  
+  mysqli_stmt_bind_param($stmt,"s",$status);
+  mysqli_stmt_execute($stmt);
+
+  $resultData=mysqli_stmt_get_result($stmt);
+  return $resultData;
+
+}
 
  function projectGet($con,$id){
    $sql="SELECT * FROM project WHERE ProjectID = ?";

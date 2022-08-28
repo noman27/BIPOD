@@ -36,7 +36,7 @@
                 <div class="navbar-nav">
                   <a class="nav-link active ms-5 me-5" aria-current="page" href="#">Home</a>
                   <a class="nav-link ms-5 me-5" href="#course">Services</a>
-                  <a class="nav-link ms-5 me-5" href="#">EMSInfo</a>
+                  <a class="nav-link ms-5 me-5" href="FireList.php">EMSInfo</a>
                   <a class="nav-link ms-5 me-5" href="contactUs.php">Contact</a>
                   <a class="nav-link ms-5 me-5" href="About.php">About</a>
                   <a class="nav-link ms-5 me-5" href="register.php">Register</a>
